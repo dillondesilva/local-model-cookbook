@@ -1,0 +1,358 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    {
+      "identifier": "shell:allow-spawn",
+      "allow": [
+        {
+          "name": "runtime/llama-cpp/bin/test-tokenizer-1-spm",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gritlm",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-tokenize",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/rpc-server",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-batched-bench",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-llava-clip-quantize-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gbnf-validator",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-save-load-state",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-minicpmv-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-convert-llama2c-to-ggml",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-lookup-merge",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gguf-hash",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-quantize-stats",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-eval-callback",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-grammar-integration",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/LICENSE-linenoise",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/LICENSE",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libggml.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-lookahead",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-llama-grammar",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-simple-chat",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/LICENSE-httplib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-embedding",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libllava_shared.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-q8dot",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-speculative",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-backend-ops",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gguf-split",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libggml-base.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-perplexity",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-imatrix",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-model-load-cancel",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/ggml-metal.metal",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-chat-template",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-qwen2vl-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-tokenizer-1-bpe",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libggml-blas.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gemma3-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-quantize-perf",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-arg-parser",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libmtmd_shared.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-sampling",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/ggml-common.h",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-infill",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libllama.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-retrieval",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-rope",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-autorelease",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libggml-cpu.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-batched",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-mtmd-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libggml-metal.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-cvector-generator",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gguf",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-quantize-fns",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-run",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-vdot",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-bench",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-log",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-speculative-simple",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/LICENSE-curl",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-gguf",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-json-schema-to-grammar",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-grammar-parser",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-lookup-create",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-tokenizer-0",
+          "sidecar": true
+        },
+        {
+          "args": [
+            "-hf",
+            "ggml-org/gemma-3-1b-it-GGUF"
+          ],
+          "name": "runtime/llama-cpp/bin/llama-server",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-lookup",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-llava-cli",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-barrier",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-c",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/LICENSE-jsonhpp",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/test-chat",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-tts",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-lookup-stats",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-simple",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-quantize",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-export-lora",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-gen-docs",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/libggml-rpc.dylib",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-parallel",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/llama-passkey",
+          "sidecar": true
+        },
+        {
+          "name": "runtime/llama-cpp/bin/ggml-metal-impl.h",
+          "sidecar": true
+        }
+      ]
+    },
+    "shell:allow-open"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Desktop App Recipes",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Simple guides and recipes for desktop app developers to build with local models"
+  }
+}

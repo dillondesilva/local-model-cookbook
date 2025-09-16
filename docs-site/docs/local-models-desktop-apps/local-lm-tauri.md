@@ -8,7 +8,7 @@ sidebar_position: 1
 
 1. Clone the example repository:
    ```bash
-   git clone https://github.com/your-username/local-model-cookbook.git
+   git clone https://github.com/dillondesilva/local-model-cookbook.git
    cd local-model-cookbook/examples/tauri-llama-cpp-template
    ```
 
